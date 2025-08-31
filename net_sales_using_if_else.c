@@ -10,7 +10,7 @@ int main() {
     else 
         disc=0.05*sales;
     net=sales-disc;
-    
+
     printf("Net sales=%.2f\n",net);
     return 0;
 }
