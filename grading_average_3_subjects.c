@@ -5,7 +5,7 @@ int main(){
     printf("Enter marks of three subjects: ");
     scanf("%d%d%d",&s1,&s2,&s3);
     total=s1+s2+s3;
-    avg=(total)/3.0;
+    avg=(total)/3;
     printf("Total Marks: %d\n",total);
     printf("Average Marks: %.2f\n",avg);
     if(s1<35||s2<35||s3<35)
