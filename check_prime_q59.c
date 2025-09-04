@@ -10,16 +10,6 @@ int main(){
         return 0;
     }
 
-    if(n==2){ // 2 is prime
-        printf("2 is Prime\n");
-        return 0;
-    }
-
-    if(n%2==0){ // even numbers >2 are not prime
-        printf("%d is Not Prime\n",n);
-        return 0;
-    }
-
     /*
     Prime checking optimizations:
     1. Check divisors up to √n:
@@ -29,7 +19,7 @@ int main(){
     2. Skip even numbers after 2: only check odd divisors
     */
 
-    for(i=3;i*i<=n;i+=2){ // check only odd divisors up to √n
+    for(i=2;i*i<=n;i+=1){ // check only odd divisors up to √n
         if(n%i==0){
             printf("%d is Not Prime\n",n);
             return 0;
