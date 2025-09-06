@@ -7,7 +7,7 @@ int main(){
 
     if(n<2){
         printf("%d is Not Prime\n",n);
-        retunr 0;
+        return 0;
 
     }
 
