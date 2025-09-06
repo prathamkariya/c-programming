@@ -9,12 +9,14 @@ int IsPrime(int n){
 
 }
 int main(){
-    printf("The prime numbers between 1 and 500 are: ");
+    int count=0;
+    
     for (int i=2;i<=500;i++){
         if(IsPrime(i)){
-            printf("%d ",i);
+            count+=1;
         }
     }
+    printf("Total Number of Prime Numbers between 1 and 500 is %d",count);
 return 0;
 
 
