@@ -51,4 +51,5 @@ if (!i) {
     printf("i is non-zero\n");
 }
     So if (!i) is just a concise way to check if a variable is 0.
+    Similarly if (i) is a way to check if variable is 1.
 */
